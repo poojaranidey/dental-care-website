@@ -2,9 +2,6 @@ import React from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
-
-
-
 import "./Login.css";
 const Login = () => {
     const { signInUsingGoogle } = useAuth();
@@ -21,20 +18,20 @@ const Login = () => {
     }
 
     return (
-        <div className="login-form">
-            <div>
+        <div className="login-form py-5">
+            <div className="login">
                 <h2>Login</h2>
                 <form>
-                    <input type="email" name="" placeholder="Your Email" />
+                    <input className="my-3" type="email" name="" placeholder="Your Email" />
                     <br />
-                    <input type="password" name="" />
+                    <input className="mb-3" type="password" placeholder="enter password" />
                     <br />
-                    <input type="submit" value="Submit" />
+                    <input className="btn btn-warning" type="submit" value="Submit" />
                 </form>
                 <p>new to ema-john website? <Link to="/register">Create Account</Link></p>
                 <div>-------or----------</div>
                 <button
-                    className="btn btn-info"
+                    className="btn btn-warning"
                     onClick={handleGoogleLogin}
                 >Google Sign In</button>
             </div>
