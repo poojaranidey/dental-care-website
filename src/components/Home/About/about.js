@@ -63,8 +63,8 @@ const About = () => {
                     <Form.Label>Patient's  Email</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
                     <br />
-                    <Form.Label>Patient's Subject</Form.Label>
-                    <Form.Control type="subject" placeholder="Enter your subject" />
+                    <Form.Label>Patient's address</Form.Label>
+                    <Form.Control type="subject" placeholder="Enter your address" />
                     <br />
 
                     <button className="Submit-now">SUBMIT</button>

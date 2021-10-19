@@ -43,21 +43,21 @@ const Contact = () => {
                                             <form>
                                                 <div className="form-row mb-3">
                                                     <div className="col mb-2">
-                                                        <Form.Label>Student's Name</Form.Label>
+                                                        <Form.Label>Patient's Name</Form.Label>
                                                         <Form.Control type="name" placeholder="Enter your name" />
                                                     </div>
                                                     <div className="col">
-                                                        <Form.Label>Student's subject</Form.Label>
-                                                        <Form.Control type="subject" placeholder="Enter your sunject" />
+                                                        <Form.Label>Patient's address</Form.Label>
+                                                        <Form.Control type="subject" placeholder="Enter your address" />
                                                     </div>
                                                 </div>
                                                 <div className="form-row mb-3">
                                                     <div className="col mb-2">
-                                                        <Form.Label>Student's Email</Form.Label>
+                                                        <Form.Label>Patient's Email</Form.Label>
                                                         <Form.Control type="email" placeholder="Enter your email" />
                                                     </div>
                                                     <div className="col">
-                                                        <Form.Label>Student's mobile number</Form.Label>
+                                                        <Form.Label>Patient's  mobile number</Form.Label>
                                                         <Form.Control type="mobile" placeholder="Enter your mobile number" />
                                                     </div>
                                                 </div>

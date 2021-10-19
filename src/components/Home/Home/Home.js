@@ -77,7 +77,7 @@ const Home = () => {
                     <div class="col-4"><div>
 
                         <div className=" about-section w-100">
-                            <div className="p-5 m-5  ">
+                            <div className="p-4 m-3  ">
                                 <Card border="primary" style={{ width: '18rem' }}>
                                     <Card.Header>We give You suitable dental treatments</Card.Header>
                                     <Card.Body>
