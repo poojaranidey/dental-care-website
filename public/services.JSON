@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1525893277997-207c04d47d65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNhdml0eSUyMGRlbnRhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "name": "Cavity Protection",
+        "description": "Will help strengthen teeth and leave your mouth feeling fresh.",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1626736985932-c0df2ae07a2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+        "name": "Implant Dentistry",
+        "description": "Dental implants are the closest you can get to healthy, natural teeth.",
+        "price": 29.99
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1619450565660-2a93ba8603fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "name": "Cosmetic Dentistry",
+        "description": "Cosmetic Dentistry improve the appearance of an individual’s teeth.",
+        "price": 39.99
+    },
+    {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1588776814546-daab30f310ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "name": "Parodontosis",
+        "description": "Timely treated parodontosis disease can save you from tooth loss.",
+        "price": 19.99
+    },
+    {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1522849696084-818b29dfe210?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80",
+        "name": "Dental Radiography",
+        "description": "Dental X-rays are a useful tool that help to diagnose and plan treatments.",
+        "price": 29.99
+    },
+    {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1598256989809-394fa4f6cd26?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGRlbnRhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "name": "Crowns & Bridges",
+        "description": "We’ll design, produce and insert ceramic structure all in one single appointment.",
+        "price": 39.99
+    }
+]

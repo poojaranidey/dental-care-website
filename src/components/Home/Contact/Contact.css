@@ -1,0 +1,12 @@
+.contact-images{
+    width:360px;
+    height: 420px;
+}
+.send-btn{
+    background-image: linear-gradient(to bottom, #04548a 0%, #13e3ff 100%);
+    color: rgb(7, 7, 7);
+    border: none;
+    width:80px;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
