@@ -18,7 +18,7 @@ const Details = () => {
 
     }, []);
     console.log(services);
-    const { name, image, description, price } = services[0] || {};
+    // const { name, image, description, price } = services[0] || {};
     return (
         <div>
 

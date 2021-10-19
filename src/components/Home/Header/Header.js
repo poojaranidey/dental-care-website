@@ -8,7 +8,7 @@ import useAuth from '../../../hooks/useAuth';
 
 
 const Header = () => {
-    const { user, logOut } = useAuth();
+    const { user, signOutt } = useAuth();
     // Header section 
     return (
         <div>
@@ -24,10 +24,10 @@ const Header = () => {
                             <Nav.Link className="navlink" as={Link} to="/services">Services</Nav.Link>
                             <Nav.Link className="navlink" as={Link} to="/contact">Contact-us</Nav.Link>
                             <Nav.Link className="navlink" as={Link} to="/about">About-us</Nav.Link>
-                            {user.email && <span style={{ color: 'white' }}>Hello {user.displayName} </span>}
+                            {user.email && <span className="px-3 pt-2" style={{ color: 'white' }}>Hello {user.displayName} </span>}
                             {
                                 user.email ?
-                                    <button onClick={logOut}>log out</button>
+                                    <button className="btn btn-info text-blue fw-bold" onClick={signOutt}>log out</button>
                                     :
                                     <Nav.Link as={Link} to="/login">Login</Nav.Link>}
 

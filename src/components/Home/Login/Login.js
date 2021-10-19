@@ -1,10 +1,12 @@
 import React from 'react';
+import { Form } from 'react-bootstrap';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 import "./Login.css";
 const Login = () => {
-    const { signInUsingGoogle } = useAuth();
+    const { signInUsingGoogle, handleEmail, handlePass, error, loggIn } = useAuth()
+
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home';
@@ -17,18 +19,30 @@ const Login = () => {
             })
     }
 
+
     return (
         <div className="login-form py-5">
             <div className="login">
                 <h2>Login</h2>
-                <form>
-                    <input className="my-3" type="email" name="" placeholder="Your Email" />
-                    <br />
-                    <input className="mb-3" type="password" placeholder="enter password" />
-                    <br />
-                    <input className="btn btn-warning" type="submit" value="Submit" />
-                </form>
-                <p>new to ema-john website? <Link to="/register">Create Account</Link></p>
+                <div>
+                    <form onSubmit={loggIn} > <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control onBlur={handleEmail} type="email" placeholder="Enter email" />
+                        <Form.Text className="text-muted">
+                            We'll never share your email with anyone else.
+                        </Form.Text>
+                    </Form.Group>
+
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                            <Form.Label>Password</Form.Label>
+                            <Form.Control onBlur={handlePass} type="password" placeholder="Password" />
+                        </Form.Group>
+
+                        <button type="submit" className="bg-warning rounded py-2 px-3 border-0">Login</button></form>
+
+                    <p>{error}</p>
+                </div>
+                <p>new to our website? <Link to="/register">Create Account</Link></p>
                 <div>-------or----------</div>
                 <button
                     className="btn btn-warning"

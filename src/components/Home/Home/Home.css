@@ -1,8 +1,14 @@
 .h1-tag{
     color: darkblue;
 }
+h3{
+    color:black;
+}
 .p-tag{
     color:rgb(24, 156, 156);
+}
+.tag-p{
+color:black;
 }
 .welcome-details{
 background-color: rgb(221, 253, 253);
@@ -28,6 +34,10 @@ border-radius: 20px;
         grid-template-columns: repeat(1, 1fr);
         width:50%;
     }
+    .heading{
+        display: none;
+    }
+
     .about-image{
         display:none;
     }
@@ -40,6 +50,10 @@ border-radius: 20px;
     .about-section{
         grid-template-columns: repeat(2, 1fr);
         width:50%;
+    }
+    .heading{
+       
+        display: none;
     }
     .about-image{
         display:none;

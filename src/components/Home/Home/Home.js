@@ -16,8 +16,8 @@ const Home = () => {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3 className="heading">Complete Oral Health Starts from here and now</h3>
+                            <p className="tag-p">Has an exceptional organizational and leadership skills.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -28,8 +28,8 @@ const Home = () => {
                         />
 
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3>The Modern Dentistry you are missing</h3>
+                            <p className="tag-p">Responsible for the beautiful pearly white smiles.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -40,8 +40,8 @@ const Home = () => {
                         />
 
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h3>We offer full scale services you need</h3>
+                            <p className="tag-p">Works with dentist to meet the oral health needs of patients.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -59,7 +59,7 @@ const Home = () => {
                     <h1>We use advanced proven technology to keep your smile looking the best!</h1>
                     <p>We are passionate about smiles and having the latest technology is one step we can take to help save yours!</p>
 
-                    <Link to="/contact"><Button classname="btn btn-primary">Contact-us</Button></Link>
+                    <Link to="/contact"><Button classname="btn btn-primary">Make An Appointment</Button></Link>
                 </div>
             </div>
             <div>
